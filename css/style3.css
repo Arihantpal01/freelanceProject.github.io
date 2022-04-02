@@ -1,0 +1,100 @@
+.body {
+    border: 20px solid #2370a2;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+
+    background-attachment: fixed;
+    width: 1000%;
+    text-align: left;
+    height: 20px solid #fff;
+    padding: 20px;
+    margin: 20px auto;
+    font-family: verdana;
+    max-width: 700px;
+
+}
+
+img:hover {
+    width: 60%;
+    transition: all 0.5s;
+
+}
+
+.blog {
+    margin-bottom: 20px;
+}
+
+.parag {
+    border-left: 5px solid #2370a2;
+    padding-left: 5px;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: black;
+}
+
+h3:hover {
+    font-size: 2rem;
+}
+
+h2:hover {
+    font-size: 3.5rem;
+    text-align: center;
+    transition: all 0.5s linear;
+}
+
+h3 {
+    font-size: 1.9rem;
+}
+summary{
+    font-size: 1.9rem;
+}
+summary:hover{
+    font-size: 2rem;
+
+}
+
+hr {
+
+    height: 0;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.sp-btn{
+    font-size: 3rem;
+    background-color:#2370a2;
+    color:white;
+  
+    border:none;
+    font-family: verdana;
+    font-weight: bold;
+    border-radius: 4px;
+    width:200px;
+    height:50px;
+  
+}
+.sp-btn a{
+    text-decoration: none;
+    color:white;
+    
+    padding:5px 5px;
+    padding-left:5px;
+    /* padding-bottom:5px; */
+   
+}
+#min-di{
+    padding:10px 10px;
+    padding-bottom: 10px;
+}
+
+.sp-btn a:hover{
+    /* color:#2370a2; */
+    color:white;
+    /* background-color: red; */
+    font-size: 3rem;
+    transition: all 0.5s;
+}
